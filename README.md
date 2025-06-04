@@ -37,6 +37,3 @@ A simple Android app built with **Jetpack Compose**, designed to help users trac
    - Reset button
    - Motivational message at goal (2000ml)
 
----
-
-## 📁 Project Structure
