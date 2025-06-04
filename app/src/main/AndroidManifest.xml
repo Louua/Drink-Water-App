@@ -13,11 +13,10 @@
         android:theme="@style/Theme.DrinkWaterReminder"
         tools:targetApi="31">
 
-        <!-- Registration Activity - Launcher -->
+        <!-- Registration Activity -->
         <activity
             android:name=".ui.theme.RegistrationActivity"
-            android:exported="true"
-            android:theme="@style/Theme.DrinkWaterReminder">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -31,7 +30,7 @@
 
         <!-- Main Activity -->
         <activity
-            android:name=".ui.theme.MainActivity"
+            android:name=".MainActivity"
             android:exported="false" />
 
     </application>
